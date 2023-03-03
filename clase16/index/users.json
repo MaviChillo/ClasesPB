@@ -1,0 +1,32 @@
+[
+  {
+    "first_name": "popo",
+    "last_name": "kitchner",
+    "email": "pkitchner@gmail.com",
+    "gender": "male"
+  },
+  {
+    "first_name": "maria",
+    "last_name": "corro",
+    "email": "mcorro@gmail.com",
+    "gender": "female"
+  },
+  {
+    "first_name": "moma",
+    "last_name": "moya",
+    "email": "mmoya@gmail.com",
+    "gender": "female"
+  },
+  {
+    "first_name": "julio",
+    "last_name": "puertas",
+    "email": "jpuertas@gmail.com",
+    "gender": "male"
+  },
+  {
+    "first_name": "paula",
+    "last_name": "lause",
+    "email": "plause@gmail.com",
+    "gender": "female"
+  }
+]
