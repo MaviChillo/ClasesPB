@@ -1,0 +1,11 @@
+{
+  "cookie": {
+    "originalMaxAge": 60000,
+    "expires": "2023-02-23T23:36:13.996Z",
+    "httpOnly": true,
+    "path": "/"
+  },
+  "email": "faridsesin@gmail.com",
+  "password": "12345",
+  "__lastAccess": 1677195313997
+}

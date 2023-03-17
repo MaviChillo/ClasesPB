@@ -1,0 +1,11 @@
+{
+  "cookie": {
+    "originalMaxAge": 60000,
+    "expires": "2023-02-23T23:37:44.624Z",
+    "httpOnly": true,
+    "path": "/"
+  },
+  "email": "michellemr85@gmail.com",
+  "password": "12345",
+  "__lastAccess": 1677195404624
+}

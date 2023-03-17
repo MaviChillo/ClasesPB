@@ -1,0 +1,15 @@
+{{!-- ciclo if y for en las vistas--}}
+
+{{!-- si hay usuarios: --}}
+{{#if usuarios.length}} 
+{{!-- for each empieza: --}}
+{{#each usuarios}}
+<h3>Bienvenid@ {{nombre}} {{apellido}}</h3>
+<h4>Tu edad es: {{edad}}</h4>
+<p>Tu correo es: {{correo}} y tu telefono: {{telefono}}</p>
+{{!-- for each termina: --}}
+{{/each}}
+{{!-- si no hay usuarios: --}}
+{{else}}
+<h2>no hay usuarios</h2>
+{{/if}}
