@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/c11.js"
+    "start:dev": "node clase25/src/app.js -m development"
   },
   "keywords": [],
   "author": "",
@@ -13,8 +13,10 @@
   "description": "",
   "dependencies": {
     "bcrypt": "^5.1.0",
+    "commander": "^10.0.0",
     "connect-mongo": "^4.6.0",
     "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-handlebars": "^6.0.6",
     "express-session": "^1.17.3",
