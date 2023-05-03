@@ -53,3 +53,23 @@
   level: 'error',
   timestamp: '2023-05-02T23:41:17.230Z'
 }
+{
+  message: 'Method: GET - URL: /prueba - Date: 2/5/2023 21:15:29',
+  level: 'information',
+  timestamp: '2023-05-03T00:15:29.212Z'
+}
+{
+  message: 'prueba warn',
+  level: 'warning',
+  timestamp: '2023-05-03T00:15:29.218Z'
+}
+{
+  message: 'Method: GET - URL: /logger - Date: 2/5/2023 21:15:38',
+  level: 'information',
+  timestamp: '2023-05-03T00:15:38.891Z'
+}
+{
+  message: 'logger error',
+  level: 'err',
+  timestamp: '2023-05-03T00:15:38.892Z'
+}

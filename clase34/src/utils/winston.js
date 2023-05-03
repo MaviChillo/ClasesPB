@@ -50,7 +50,7 @@ if(config.node_env === 'development'){
         levels: logsLevels.names,
         transports: [
             new winston.transports.Console({
-                level: 'silly',
+                level: 'information',
                 format: winston.format.combine(
                     winston.format.colorize({colors:logsLevels.colors}),
                     winston.format.simple()
@@ -60,9 +60,10 @@ if(config.node_env === 'development'){
     })
 }else{
     logger = winston.createLogger({
+        levels: logsLevels.names,
         transports: [
             new winston.transports.File({
-                level: 'info',
+                level: 'information',
                 filename: './logsStage.log',
                 format: winston.format.combine(
                     winston.format.timestamp(),
