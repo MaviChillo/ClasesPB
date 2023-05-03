@@ -1,0 +1,67 @@
+{"level":"error","message":"log error"}
+{"level":"warn","message":"log warn"}
+{"level":"error","message":"log error"}
+{"level":"warn","message":"log warn"}
+{"level":"error","message":"log error"}
+{"level":"warn","message":"log warn"}
+{
+  message: 'log error',
+  level: 'error',
+  timestamp: '2023-05-02T23:05:14.699Z'
+}
+{
+  message: 'log warn',
+  level: 'warn',
+  timestamp: '2023-05-02T23:05:14.702Z'
+}
+{
+  message: 'log error',
+  level: 'error',
+  timestamp: '2023-05-02T23:06:35.371Z'
+}
+{
+  message: 'log warn',
+  level: 'warn',
+  timestamp: '2023-05-02T23:06:35.375Z'
+}
+{
+  message: 'log error',
+  level: 'error',
+  timestamp: '23-05-02 08:13:48'
+}
+{ message: 'log warn', 
+  level: 'warn', 
+  timestamp: '23-05-02 08:13:48' 
+}
+{
+  message: 'log error',
+  level: 'error',
+  timestamp: '23-05-02 08:15:02 24'
+}
+{
+  message: 'log warn',
+  level: 'warn',
+  timestamp: '23-05-02 08:15:02 24'
+}
+{
+  message: 'log error',
+  level: 'error',
+  timestamp: '23-05-02 08:15:23 pm15-p15'
+}
+{
+  message: 'log warn',
+  level: 'warn',
+  timestamp: '23-05-02 08:15:23 pm15-p15'
+}
+{
+  message: 'log error',
+  level: 'error',
+  timestamp: '23-05-02 08:19:37'
+}
+{ message: 'log warn', level: 'warn', timestamp: '23-05-02 08:19:37' }
+{
+  message: 'log error',
+  level: 'error',
+  timestamp: '23-05-02 08:25:57'
+}
+{ message: 'log warn', level: 'warn', timestamp: '23-05-02 08:25:57' }

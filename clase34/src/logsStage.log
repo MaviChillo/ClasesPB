@@ -1,0 +1,55 @@
+{
+  message: 'Method: GET - URL: /prueba - Date: 2/5/2023 20:38:12',
+  level: 'info',
+  timestamp: '2023-05-02T23:38:12.042Z'
+}
+{
+  message: 'prueba warn',
+  level: 'warn',
+  timestamp: '2023-05-02T23:38:12.046Z'
+}
+{
+  message: 'Method: GET - URL: /prueba - Date: 2/5/2023 20:38:15',
+  level: 'info',
+  timestamp: '2023-05-02T23:38:15.531Z'
+}
+{
+  message: 'prueba warn',
+  level: 'warn',
+  timestamp: '2023-05-02T23:38:15.532Z'
+}
+{
+  message: 'Method: GET - URL: /login - Date: 2/5/2023 20:38:27',
+  level: 'info',
+  timestamp: '2023-05-02T23:38:27.087Z'
+}
+{
+  message: 'Method: GET - URL: /logger - Date: 2/5/2023 20:38:27',
+  level: 'info',
+  timestamp: '2023-05-02T23:38:27.778Z'
+}
+{
+  message: 'prueba error',
+  level: 'error',
+  timestamp: '2023-05-02T23:38:27.778Z'
+}
+{
+  message: 'Method: GET - URL: /logger - Date: 2/5/2023 20:39:00',
+  level: 'info',
+  timestamp: '2023-05-02T23:39:00.769Z'
+}
+{
+  message: 'prueba error',
+  level: 'error',
+  timestamp: '2023-05-02T23:39:00.769Z'
+}
+{
+  message: 'Method: GET - URL: /logger - Date: 2/5/2023 20:41:17',
+  level: 'info',
+  timestamp: '2023-05-02T23:41:17.226Z'
+}
+{
+  message: 'logger error',
+  level: 'error',
+  timestamp: '2023-05-02T23:41:17.230Z'
+}
