@@ -1,0 +1,36 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: service32245
+spec: 
+  selector:
+    app: dockerhub32245
+  ports:
+    - port: 80
+      targetPort: 8080
+  type: LoadBalancer
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deployment32245
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: dockerhub32245
+  template:
+    metadata:
+      labels:
+        app: dockerhub32245
+    spec:
+      containers:
+        - name: dockerhub32245
+          image: faridsesin/dockerhub32245:1.0.0
+          ports:
+            - containerPort: 8080
+          env:
+            - name: MONGO_URI
+              value: mongodb+srv://coderhouse:coderhouse@cluster0.sugvijj.mongodb.net/docker32245?retryWrites=true&w=majority
+          imagePullPolicy: Always
