@@ -1,0 +1,61 @@
+paths:
+  /api/users:
+    get:
+      summary: Returns all users
+      tags:
+        - Users
+      responses:
+        "200":
+          description: All users
+        "500":
+          description: Server error
+        "400":
+          description: Some data is missing
+  /api/users/{id}:
+    get:
+      summary: Returns one user by id
+      tags:
+        - Users
+      parameters:
+        - name: id
+          in: path
+          description: User identifier
+      responses:
+        "200":
+          description: One user
+          content:
+            application/json:
+              schemas:
+                $ref: "#/components/schemas/User"
+              example:
+                id: fggfg
+                first_name: mavi
+                last_name: chillo
+                age: 23
+                email: mavi.chillo@gmail.com
+        "500":
+          description: Server error
+        "400":
+          description: Some data is missing
+
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: string
+        first_name:
+          type: string
+        last_name:
+          type: string
+        age:
+          type: number
+        email:
+          type: string
+      example:
+        id: fggfg
+        first_name: mavi
+        last_name: chillo
+        age: 23
+        email: mavi.chillo@gmail.com
