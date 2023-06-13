@@ -1,0 +1,2 @@
+Esta clase fue de deployment, no lo hice con el repo que brinda la documentacion porque no lo tengo en mi cuenta de github. 
+Lo hice con mi proyecto en railway, asegurarse de tener un "start" porque sino no funciona.
